@@ -4,9 +4,11 @@
 
 
 # Introduction
-This project focused on wrangling data from the __[WeRateDogs Twitter](https://twitter.com/dog_rates)__ account using Python, documented in a Jupyter Notebook (wrangle_act.ipynb). This Twitter account rates dogs with humorous commentary. The rating denominator is usually 10, however, the numerators are usually greater than 10. They’re Good Dogs Brent wrangle WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations. WeRateDogs has over 4 million followers and has received international media coverage.
+This project focused on wrangling data from the __[WeRateDogs Twitter](https://twitter.com/dog_rates)__ account using Python, documented in a Jupyter Notebook (wrangle_act.ipynb). This Twitter account rates dogs with humorous commentary. The rating denominator is usually 10, however, the numerators are usually greater than 10. WeRateDogs has over 4 million followers and has received international media coverage.
 
-WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively for us to use in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017
+WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively for us to use in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017. The data is enhanced by a second dataset with predictions of dog breeds for each of the Tweets. Finally, we could use the Twitter API to glean further basic information from the Tweet such as favourites and retweets.
+
+Using this freshly cleaned WeRateDogs Twitter data , interesting and trustworthy analyses and visualizations can be created to communicate back our findings.
 
 ## Project Details
 Fully assessing and cleaning the entire dataset would require exceptional effort so only a subset of its issues (eight quality issues and two tidiness issues at minimum) needed to be assessed and cleaned.
